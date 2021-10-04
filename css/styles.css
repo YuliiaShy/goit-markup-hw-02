@@ -1,5 +1,11 @@
+/* body */
+body {
+font-family: Roboto;
+color: #757575;
+background-color:#FFFFFF;}
+
 /* header */
-header {background-color:#FFFFFF;}
+
 .logo {
 font-family: Raleway;
 font-style: normal;
@@ -60,20 +66,7 @@ color: #FFFFFF;
 background-color: #2196F3;
 }
 
-/* body */
-body {color: #757575;
-font-family: Roboto;
-}
-
 /* section-advantage */
-.section-advantage {
-background-color: #FFFFFF;
-font-family: Roboto;
-font-style: regular;
-font-size: 14px;
-line-height: 24px;
-
-}
 .advantage-title {
 font-family: Roboto;
 font-style: bold;
@@ -82,17 +75,14 @@ line-height: 16px;
 text-transform: uppercase;
 color: #212121;
 }
-
-/* advantage-title-none */
-.advantage-title {
-font-style: normal;
-font-weight: bold;
+.section-advantage p {
+font-family: Roboto;
+font-style: regular;
 font-size: 14px;
-line-height: 16px;
-color:#212121;
+line-height: 24px;
 }
+
 /* section-services */
-.section-services {background-color: #FFFFFF;}
 .section-title {
 font-style: normal;
 font-weight: bold;
@@ -108,6 +98,13 @@ font-weight: 500;
 font-size: 16px;
 line-height: 19px;
 color:#212121;
+}
+.section-team p {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
 }
 
 /* footer */
