@@ -1,22 +1,18 @@
 /* header */
-header {
-background-color:#FFFFFF;
-}
+header {background-color:#FFFFFF;}
 .logo {
-text-decoration: none;  
+font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 31px;
-color: #212121;
 color: #2196F3;
 }
-ul {
-list-style: none;
-}
+.logo span {color: #000;}
+ul {list-style: none;}
+a {text-decoration: none; }
 /* site-nav */
 .site-nav  a {
-text-decoration: none;
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -30,7 +26,6 @@ color: #2196F3;
 }
 /* contacts */
 .contacts a {
-text-decoration: none;
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -44,20 +39,51 @@ color: #2196F3;
 }
 
 /* hero */
-.hero {
-background-color: #2F303A;
-}
+.hero {background-color: #2F303A;}
 .hero-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+text-transform: uppercase;
 color: #FFFFFF;
 }
+.order-service {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
 /* body */
-body {
-color: #757575;
+body {color: #757575;
+font-family: Roboto;
 }
-/* section */
+
+/* section-advantage */
 .section-advantage {
-background-color: #E5E5E5;
+background-color: #FFFFFF;
+font-family: Roboto;
+font-style: regular;
+font-size: 14px;
+line-height: 24px;
+
 }
+.advantage-title {
+font-family: Roboto;
+font-style: bold;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+color: #212121;
+}
+
+/* advantage-title-none */
 .advantage-title {
 font-style: normal;
 font-weight: bold;
@@ -65,10 +91,8 @@ font-size: 14px;
 line-height: 16px;
 color:#212121;
 }
-
-.section-services {
-background-color: #E5E5E5;
-}
+/* section-services */
+.section-services {background-color: #FFFFFF;}
 .section-title {
 font-style: normal;
 font-weight: bold;
@@ -76,11 +100,10 @@ font-size: 36px;
 line-height: 42px;
 color:#212121;
 }
-.section-team {
-background-color: #F5F4FA;
-}
+/* section-team */
+.section-team {background-color: #F5F4FA;}
 .team-title {
-font-style: normal;
+font-style: medium;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
@@ -92,17 +115,26 @@ footer {
 background-color: #2F303A;
 }
 .logo-footer {
-text-decoration: none;
+font-family: Raleway;    
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 31px;
-color: #FFFFFF;
 color: #2196F3;
 }
-
+.logo-footer span {
+color: #FFFFFF;    
+}
+.map a {    
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;    
+}
 .mail a, .tel a {
-text-decoration: none;
+font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -110,14 +142,7 @@ line-height: 24px;
 color: rgba(255, 255, 255, 0.6);
 }
 
-.map a {
-text-decoration: none;    
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-color: #FFFFFF;    
-}
+
 
 
 
@@ -125,7 +150,6 @@ color: #FFFFFF;
 основной - черный             #212121
 вторичный - серый             #757575
 белый                         #FFFFFF
-сероватый                     #E5E5E5
 команда                       #F5F4FA
 герой, футер                  #2F303A
 акцент - синий                #18A0FB
