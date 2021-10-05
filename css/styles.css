@@ -1,60 +1,66 @@
+:root {
+    --general-text-color: #757575;
+    --headline-text-color: #212121;
+    --general-background-color:#FFFFFF;
+    --accent-color-blue: #2196F3;
+}
+
 /* body */
 body {
-font-family: Roboto;
-color: #757575;
-background-color:#FFFFFF;}
+font-family: Roboto, sans-serif;
+letter-spacing: 0.03em;
+color: var(--general-text-color);
+background-color: var(--general-background-color);
+}
+ul {list-style: none;}
+a {text-decoration: none; }
 
 /* header */
-
 .logo {
 font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 31px;
-color: #2196F3;
+color: var(--accent-color-blue);
 }
 .logo span {color: #000;}
-ul {list-style: none;}
-a {text-decoration: none; }
+
 /* site-nav */
-.site-nav  a {
-font-family: Roboto;
-font-style: normal;
+.site-nav  .link {
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
-color: #212121;
+color: var(--headline-text-color);
 }
-.site-nav a:hover,
-.site-nav a:focus {
-color: #2196F3;
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: var(--accent-color-blue);
+}
+.site-nav .link.current {
+color: var(--accent-color-blue);
 }
 /* contacts */
-.contacts a {
-font-family: Roboto;
-font-style: normal;
+.site-contacts .contact {
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-color: #757575;
+color: var(--general-text-color);
 }
-.contacts a:hover,
-.contacts a:focus {
-color: #2196F3;
+.site-contacts .contact:hover,
+.site-contacts .contact:focus {
+color: var(--accent-color-blue);
 }
+
 
 /* hero */
 .hero {background-color: #2F303A;}
 .hero-title {
-font-family: Roboto;
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
 text-align: center;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--general-background-color);
 }
 .order-service {
 font-family: Roboto;
@@ -117,27 +123,33 @@ font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 31px;
-color: #2196F3;
+color: var(--accent-color-blue);
 }
 .logo-footer span {
-color: #FFFFFF;    
+color: var(--general-background-color);    
 }
-.map a {    
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
+.address .map-footer { 
+font-style: normal;   
 font-size: 14px;
 line-height: 24px;
-color: #FFFFFF;    
+color: var(--general-background-color);   
 }
-.mail a, .tel a {
-font-family: Roboto;
+/* .address .map-footer:hover,
+.address .map-footer:focus {
+color: var(--accent-color-blue);  
+} */
+
+.address .contact-footer {
 font-style: normal;
-font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 color: rgba(255, 255, 255, 0.6);
 }
+/* .address .contact-footer:hover,
+.address .contact-footer:focus {
+color: var(--accent-color-blue);  
+} */
+
 
 
 
