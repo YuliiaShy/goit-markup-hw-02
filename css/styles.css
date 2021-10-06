@@ -49,7 +49,6 @@ color: var(--accent-color-blue);
 font-weight: 500;
 letter-spacing: 0.02em;
 color: var(--general-text-color); 
-/* якщо прибрать колор контакти стають синіми */
 }
 .site-contacts .contact:hover,
 .site-contacts .contact:focus {
@@ -70,7 +69,7 @@ text-transform: uppercase;
 color: var(--general-background-color);
 }
 /* button */
-.order-service {
+.hero-button {
 font-family: Roboto, sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -83,7 +82,9 @@ letter-spacing: 0.06em;
 color: var(--general-background-color);
 background-color: var(--accent-color-blue);
 }
-
+.hero-button:hover {
+background-color: #188CE8;
+}
 /* section-advantage */
 .advantage .advantage-title {
 font-weight: 700;
@@ -129,7 +130,6 @@ color: var(--accent-color-blue);
 color: var(--general-background-color);    
 }
 .address .map-footer { 
-    /* якщо прибрать фонт стайл слова стають похилі */
 font-style: normal;  
 line-height: 1,7;
 color: var(--general-background-color);   
@@ -139,7 +139,6 @@ color: var(--general-background-color);
 color: var(--accent-color-blue);  
 } 
 .address .contact-footer {
-   /* якщо прибрать фонт стайл слова стають похилі */
 font-style: normal;
 line-height: 1,7;
 color: rgba(255, 255, 255, 0.6);
