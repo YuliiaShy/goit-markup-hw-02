@@ -3,6 +3,7 @@
     --headline-text-color: #212121;
     --general-background-color:#FFFFFF;
     --accent-color-blue: #2196F3;
+    --background-color-buttons: #F5F4FA
 }
 
 /* body */
@@ -48,8 +49,9 @@ color: var(--accent-color-blue);
 .site-contacts .contact {
 font-weight: 500;
 letter-spacing: 0.02em;
-color: var(--general-text-color); 
+color: inherit; 
 }
+
 .site-contacts .contact:hover,
 .site-contacts .contact:focus {
 color: var(--accent-color-blue);
@@ -103,7 +105,7 @@ color: var(--headline-text-color);
 }
 /* section-team */
 .team {
-background-color: #F5F4FA;
+background-color: var(--background-color-buttons);
 }
 .team .team-title {
 font-weight: 500;
@@ -147,16 +149,24 @@ color: rgba(255, 255, 255, 0.6);
 .address .contact-footer:focus {
 color: var(--accent-color-blue);  
 }
+/* PORTFOLIO */
 
+/* filter buttons */
+     .buttons-filter .filter {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,6;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+background-color: #F5F4FA;
+cursor: pointer;
+}
 
- 
-
-
-/* цвета текста
-основной - черный             #212121
-вторичный - серый             #757575
-белый                         #FFFFFF
-команда                       #F5F4FA
-герой, футер                  #2F303A
-акцент - синий                #18A0FB
- */
+.buttons-filter .filter:hover,
+.buttons-filter .filter:focus {
+color: #FFFFFF;
+background: #2196F3;
+    }
