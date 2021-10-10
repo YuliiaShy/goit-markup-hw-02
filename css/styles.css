@@ -4,15 +4,15 @@
     --headline-text-color: #212121;
     --general-background-color:#FFFFFF;
     --accent-color-blue: #2196F3;
-    --background-color-buttons: #F5F4FA
+    --background-color-buttons: #F5F4FA;
+    --footer-background-color: #2F303A;
+    --hero-button-hover: #188CE8;
+    --logo-span-color: #000000;
+
 }
 /* body */
 body {
 font-family: Roboto, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.2;
 letter-spacing: 0.03em;
 color: var(--general-text-color);
 background-color: var(--general-background-color);
@@ -41,33 +41,34 @@ font-size: 26px;
 line-height: 1.2;
 color: var(--accent-color-blue);
 }
-.logo span {color: #000000;}
+.logo .logo-header 
+{color: var(--logo-span-color);}
 
 /* site-nav */
 .link {
 font-weight: 500;
+font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--headline-text-color);
 }
-.link:hover,
-.link:focus {
-color: var(--accent-color-blue);}
-
-/* site-contacts */
 .contact {
 font-weight: 500;
+font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: inherit; 
 }
+.link:hover,
+.link:focus, 
 .contact:hover,
 .contact:focus {
 color: var(--accent-color-blue);}
 
 /* hero */
 .hero {
-background-color: #2F303A;}
+background-color: 
+var(--footer-background-color);}
 .hero-title {
 font-weight: 900;
 font-size: 44px;
@@ -79,37 +80,41 @@ color: var(--general-background-color);
 }
 /* button */
 .hero-button {
-font-family: Roboto, sans-serif;
-font-style: normal;
+font-family: inherit;
 font-weight: 700;
-font-size: 16px;
 line-height: 1.87;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--general-background-color);
 background-color: var(--accent-color-blue);
+border: none;
+border-radius: 4px;
 cursor: pointer;
 }
 .hero-button:hover {
-background-color: #188CE8;}
+background-color: var(--hero-button-hover);}
 
 /* section-advantage */
 .advantage {
-background-color: var(--general-background-color);
+background-color: 
+var(--general-background-color);
 }
 .advantage-title {
 font-weight: 700;
+font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 color: var(--headline-text-color);
 }
 .advantage-text {
+font-size: 14px;
 line-height: 1.71;
 }
 
 /* section-services */
 .services {
-background-color: var(--general-background-color);
+background-color: 
+var(--general-background-color);
 }
 .section-title {
 font-weight: 700;
@@ -118,46 +123,34 @@ color: var(--headline-text-color);
 }
 /* section-team */
 .team {
-background-color: var(--background-color-buttons);
+background-color: 
+var(--background-color-buttons);
 }
 .team-title {
 font-weight: 500;
-font-size: 16px;
 color: var(--headline-text-color);
 }
-.team-text {
-font-size: 16px;
-}
-
 /* footer */
 footer {
-background-color: #2F303A;
+background-color: 
+var(--footer-background-color);
 }
-.logo-address {
-font-family: Raleway;    
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 1.2;
-color: var(--accent-color-blue);
-}
-.logo-address span {
+.logo-footer {
 color: var(--general-background-color);    
 }
-address {
+.addresses {
 font-style: inherit;
+font-size: 14px;
 line-height: 1.71; 
 }
 .map-address { 
 color: var(--general-background-color);   
 }
-.map-address:hover, 
-.map-address:focus {
-color: var(--accent-color-blue);  
-} 
 .contact-address {
 color: rgba(255, 255, 255, 0.6);
 }
+.map-address:hover, 
+.map-address:focus,
 .contact-address:hover,
 .contact-address:focus {
 color: var(--accent-color-blue);  
@@ -166,32 +159,32 @@ color: var(--accent-color-blue);
 
 /* filter buttons */
 .btn-filter {
-font-family: Roboto;
-font-style: normal;
 font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
+line-height: 1.62;
 text-align: center;
-letter-spacing: 0.03em;
 color: var(--headline-text-color);
 background-color: var(--background-color-buttons);
+border: none;
+border-radius: 4px;
 cursor: pointer;
+}
+.button-active {
+color: var(--general-background-color);
+background: var(--accent-color-blue);   
 }
 .btn-filter:hover,
 .btn-filter:focus {
 color: var(--general-background-color);
-background: var(--accent-color-blue);}
-
-    .examples-title {
+background: var(--accent-color-blue);
+}
+.examples-title {
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--headline-text-color);
-    }
-
-    .examples-text {
-font-size: 16px;
+}
+.examples-text {
 line-height: 1.87px;
 color: var(--general-text-color);
-    }
+}
