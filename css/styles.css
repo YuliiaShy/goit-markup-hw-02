@@ -119,6 +119,7 @@ var(--general-background-color);
 .section-title {
 font-weight: 700;
 font-size: 36px;
+line-height: 1.16;
 color: var(--headline-text-color);
 }
 /* section-team */
@@ -128,6 +129,7 @@ var(--background-color-buttons);
 }
 .team-title {
 font-weight: 500;
+line-height: 1.2;
 color: var(--headline-text-color);
 }
 /* footer */
@@ -168,12 +170,9 @@ border: none;
 border-radius: 4px;
 cursor: pointer;
 }
-.button-active {
-color: var(--general-background-color);
-background: var(--accent-color-blue);   
-}
 .btn-filter:hover,
-.btn-filter:focus {
+.btn-filter:focus,
+.button-active {
 color: var(--general-background-color);
 background: var(--accent-color-blue);
 }
@@ -185,6 +184,6 @@ letter-spacing: 0.06em;
 color: var(--headline-text-color);
 }
 .examples-text {
-line-height: 1.87px;
+line-height: 1.87;
 color: var(--general-text-color);
 }
